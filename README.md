@@ -65,10 +65,11 @@ The users will choose a YouTube link as input and generate summaries of the vide
 
 
 # Video demonstration
-[Watch the video](https://www.loom.com/share/e36fc7013b0b4a138ffb630db3ed7cfe?sid=2d31deb6-960b-4b7a-ac35-c082e96ea4ae)
+[Watch the video](https://www.loom.com/share/97b4840119274808b97dbc05a9a96b81?sid=64ada5b6-3c2a-49a4-ac0c-d165b9ecede6)
 
 # Certificate
-![image](https://github.com/philliphjhuang/GeminiQuizify/assets/30792325/12c1c88c-9ef9-47e6-ab77-0b5e207bfb9c)
+![image](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/75e6a5d6-0d42-4041-afe2-6c31908373b4)
+
 
 ## Contributers
 - Phillip Huang
