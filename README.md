@@ -1,5 +1,7 @@
 # Gemini Dynamo
-The GeminiDynamo project integrates frontend and backend technologies to efficiently parse and organize lengthy YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. The project uses DynamoCards, an open-source tool, tackles the arduous task of parsing lengthy YouTube transcripts with its Semantic Extraction Algorithm (SEA), aiming to streamline the study process for students and educators. By swiftly identifying and organizing key concepts and terms within university lectures and other lengthy video content, DynamoCards revolutionizes digital learning, facilitating more effective study habits and enhancing classroom instruction. It empowers users to distill hours of lecture material into concise, digestible insights, marking a significant advancement in educational technology.
+The GeminiDynamo project integrates frontend and backend technologies to efficiently parse and organize lengthy YouTube transcripts, revolutionizing study processes and enhancing digital learning experiences. 
+
+The project uses DynamoCards, an open-source tool, tackles the arduous task of parsing lengthy YouTube transcripts with its Semantic Extraction Algorithm (SEA), aiming to streamline the study process for students and educators. By swiftly identifying and organizing key concepts and terms within university lectures and other lengthy video content, DynamoCards revolutionizes digital learning, facilitating more effective study habits and enhancing classroom instruction. It empowers users to distill hours of lecture material into concise, digestible insights, marking a significant advancement in educational technology.
 
 ## Installation
 
@@ -25,6 +27,45 @@ The GeminiDynamo project integrates frontend and backend technologies to efficie
    cd backend
    pip install -r requirements.txt
    ```
+   
+5. In the terminal, run the following command for the backend:
+   ```
+   cd backend
+   uvicorn main:app --reload
+   ```
+   
+6. Create a new terminal without closing the previous one and run the following commands for the frontend:
+   ```
+   cd frontend/dynamocards
+   npm run dev
+   ```
+   
+7. In your browser, open the following links:
+   [backend](http://127.0.0.1:8000/docs)
+   [frontend](http://localhost:5173/)
+
+8. Navigate through the following in the **backend** link:
+   - ![Screenshot](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/db3f5e52-9cdc-48d7-a262-1f458ee88604)
+   - ![Screenshot](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/8657e37b-bc1f-4adb-bd90-0d62d84ecdc7)
+   - ![Screenshot](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/4ba12f12-1441-45b8-aa6c-b1df5ea33d84)
+     - replace https://example.com/ with any YouTube link of your choice (Preferably videos with captions)
+   - Click on the "Execute" button.
+   - If successful, it will show Code 200 like in the following screenshot:
+     - ![Screenshot](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/985dcb5f-eccb-4ecc-a289-e5c634fc8791)
+   - If not successful, it will show Code 500. Try executing again or with a different YouTube link.
+
+9. Navigate through the following in the **frontend** link:
+   - ![image](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/3a0050cf-4e47-45db-960d-233e1c34aa83)
+     - Enter the same YouTube that you entered for backend and click on "Generate Flashcards"
+
+10. Results:
+    ![image](https://github.com/philliphjhuang/GeminiDynamo/assets/30792325/306f6118-832c-403e-828a-0da8371dbc68)
+
+
+
+   
+   
+
 
 ## Functions
 Allows users to upload multiple PDFs, enter a topic, choose the number of questions, and generate a multiple-choice quiz based on the PDFs and the topic.
