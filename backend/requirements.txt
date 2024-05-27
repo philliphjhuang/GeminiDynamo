@@ -1,0 +1,13 @@
+﻿streamlit
+langchain
+langchain-community
+langchain-google-vertexai
+pypdf
+youtube-transcript-api
+pytube
+tiktoken
+fastapi
+uvicorn
+tqdm
+json
+re
